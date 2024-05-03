@@ -1,3 +1,9 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Liu+Jian+Mao+Cao&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Liu+Jian+Mao+Cao&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
 @font-face {
     font-family: PassionOne;
     src: url(fontes/PassionOne-Regular.ttf)format('Opentype');
@@ -13,11 +19,7 @@
     --fonte-destaque:'fontes/PassionOne-Regular.ttf', 'Cursive';
     --fonte-texto:'fontes/Sriracha-Regular.ttf', 'Cursive';
 }
-main{
-    display: block;
-    padding: 0px 200px;
-    
-}
+
 header{
     background-color: black;
     text-align: center;
@@ -30,6 +32,8 @@ header > h1{
 }
 header > p {    
     font-family: var(--fonte-texto);
+    color: white;
+    text-decoration: none;
     
 }
 #estrofe1{
